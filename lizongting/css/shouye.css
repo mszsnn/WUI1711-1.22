@@ -1,0 +1,359 @@
+
+/*头部*/
+header{
+    width: 100%;
+    height: 40px;
+    background: #fcfcfc;
+    border-bottom: 1px solid #e6e6e6;
+}
+.header-min-didth{
+    height: 100%;
+    margin:0 auto;
+}
+.denglu{
+    float: right;
+    width: 80px;
+    height: 32px;
+    line-height: 32px;
+}
+.denglu a{
+    font-size: 12px;
+    color:#666666;
+}
+.denglu span{
+    font-size: 12px;
+}
+/*搜索框*/
+.search{
+    width: 100%;
+    height: 90px;
+}
+.search-min-width{
+    max-width: 1180px;
+    height: 100%;
+    margin:0 auto;
+}
+.logo{
+    height: 100%;
+    float: left;
+    padding:10px 0;
+}
+.logo img{
+    display: block;
+    width: 276px;
+    height: 75px;
+}
+.search-center{
+    height: 100%;
+    float: left;
+}
+.search-center-top{
+    width: 80%;
+    height: 34px;
+    margin:20px auto 0;
+}
+.search-center-top input{
+    width: 78%;
+    height: 34px;
+    border:3px solid #fb3c3c;
+    display: block;
+    float: left;
+}
+.search-center-top button{
+    background: #fb3c3c;
+    border:none;
+    width: 22%;
+    height: 34px;
+    line-height: 34px;
+    font-size: 12px;
+    color:#fff;
+    float: left;
+}
+.search-center-bottom{
+    margin-top:5px;
+
+}
+.search-center-bottom a{
+    font-size: 12px;
+    display: block;
+    color:#fb3c3c;
+    margin:0 auto;
+    width: 80%;
+}
+.search-right{
+    height: 90px;
+    float: right;
+}
+.search-right .iconfont{
+    font-size: 24px;
+    color:#fb3c3c;
+    line-height: 90px;
+    text-align: center;
+    float: left;
+}
+.search-right span{
+    font-size: 20px;
+    color:#333333;
+    line-height: 90px;
+    padding-left:15px;
+}
+/*导航栏*/
+nav{
+    width: 100%;
+    height: 40px;
+    background: #333333;
+}
+.nav-min-width{
+    width: 1180px;
+    height: 100%;
+    background: red;
+    margin:0 auto;
+}
+.caidan{
+    width: 220px;
+    height: 40px;
+    background: #fb3c3c;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+}
+.caidan a{
+    font-size: 11px;
+    color:#fff;
+}
+.list{
+    width: 960px;
+    height: 40px;
+    background:#333333 ;
+    float: right;
+}
+.list li{
+    width: 12.5%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    box-sizing: border-box;
+}
+.list li a{
+    font-size: 11px;
+    color:#fff;
+}
+.list li:hover{
+    background: #fb3c3c;
+}
+/*banner*/
+.banner{
+    width: 100%;
+    height: 495px;
+    position: relative;
+}
+.banner-image{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.banner-image li{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.banner-image li img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.lunbodian{
+    width: 50px;
+    height: 10px;
+    position: absolute;
+    left:48%;
+    bottom:10px;
+}
+.lunbodian a{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    float: left;
+    background: #fff;
+    margin-right:10px;
+}
+.lunbodian a:last-child{
+    margin-right:0;
+    background: #fb3c3c;
+}
+.lunbodian a:hover{
+    background: #fb3c3c;
+}
+.bashou-left{
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    left:0;
+    top:45%;
+    background: rgba(0,0,0,.3);
+    line-height: 42px;
+    text-align: center;
+    font-size: 26px;
+    color:#826c64;
+    transition: all .5s;
+    cursor: pointer;
+}
+.bashou-right{
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    right:0;
+    top:45%;
+    background: rgba(0,0,0,.3);
+    line-height: 42px;
+    text-align: center;
+    font-size: 26px;
+    color:#826c64;
+    transition: all .5s;
+    cursor: pointer;
+}
+.bashou-left:hover{
+    background: #fb3c3c;
+}
+.bashou-right:hover{
+    background: #fb3c3c;
+}
+/*新品*/
+.new{
+    width: 1180px;
+    height: 38px;
+    margin:0 auto;
+    margin-top: 20px;
+}
+.new-left{
+    width: 260px;
+    height: 38px;
+    background: #fb3c3c;
+    float: left;
+    line-height: 38px;
+    text-align: center;
+    font-size: 12px;
+    color:#fff;
+}
+.new-center{
+    width: 838px;
+    height: 38px;
+    float: left;
+}
+.new-right{
+    width: 80px;
+    height: 28px;
+    float: right;
+    border:1px solid #ccc;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 4px;
+}
+.new-right a{
+    font-size: 12px;
+    color:#666;
+}
+.new-right:hover{
+    background: #fb3c3c;
+}
+.new-right:hover a{
+    color:#fff;
+    text-decoration: underline;
+}
+/*图片*/
+.tupian{
+    width: 1179px;
+    height: 581px;
+    margin:0 auto;
+    margin-top: 20px;
+}
+.tupian ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.tupian ul li{
+    width: 284px;
+    height: 281px;
+    border:1px solid #ccc;
+    margin-bottom: 17px;
+}
+.tupian ul li .tu{
+    overflow: hidden;
+    width: 254px;
+    height: 191px;
+    margin:15px auto 0;
+}
+.tupian ul li .tu img{
+    display: block;
+    width: 254px;
+    height: 191px;
+}
+.tupian ul li .zi{
+    font-size: 11px;
+    color:#565656;
+    width: 254px;
+    height: 12px;
+    margin:15px auto 0;
+}
+.tupian ul li .jia{
+    font-size: 11px;
+    color:#aa3f09;
+    width: 254px;
+    height: 12px;
+    margin:15px auto 0;
+}
+.tupian ul li a{
+    text-decoration: none;
+}
+.tupian ul li:hover img{
+    transform: scale(1.2,1.2);
+}
+/*特色美食*/
+.food-head{
+    width: 263px;
+    height: 50px;
+    border-bottom: 1px solid #336252;
+    margin:48px auto 0;
+}
+.food-head .iconfont{
+    font-size: 38px;
+    float: left;
+    color:#b4b60d;
+    margin-left: 50px;
+}
+.food-head span{
+    font-size: 26px;
+    color:#523225;
+    margin-left: 11px;
+    line-height: 50px;
+}
+.food .kongbai{
+    width: 215px;
+    height: 6px;
+    border-bottom: 1px solid #336252;
+    margin:0 auto;
+}
+.foodmain{
+    width: 1178px;
+    height: 451px;
+    margin:0 auto;
+    margin-top:40px;
+    background: red;
+}
+.foodmain .tupian{
+    width: 557px;
+    height: 451px;
+    float: left;
+    padding:21px 20px;
+}
+.foodmain .tupian img{
+    display: block;
+    width: 520px;
+    height: 412px;
+}

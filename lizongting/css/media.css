@@ -1,0 +1,21 @@
+/*移动端*/
+@media screen and (max-width: 768px){
+    .header-min-didth{
+        padding-right: 10px;
+    }
+}
+/*平板端*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+}
+/*pc小屏*/
+@media screen and (min-width: 992px) and (max-width: 1200px){
+
+}
+/*pc大屏*/
+@media screen and (min-width: 1200px){
+    .header-min-didth{
+        padding-right:85px;
+        max-width: 1180px;
+    }
+}
