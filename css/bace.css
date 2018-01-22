@@ -1,0 +1,24 @@
+/*
+* @Author: Administrator
+* @Date:   2018-01-03 09:23:45
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-01-05 22:59:42
+*/
+*{
+	list-style: none;
+	font-size: 16px;
+	font-family: "微软雅黑","宋体",sans-serif;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background: #fff;
+	
+}
+img
+{
+	border: none;
+}
