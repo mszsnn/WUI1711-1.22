@@ -1,0 +1,253 @@
+@import url('base.css');
+@font-face {
+  font-family: 'iconfont';  /* project id 525040 */
+  src: url('https://at.alicdn.com/t/font_525040_zlbib5wpvqjjor.eot');
+  src: url('https://at.alicdn.com/t/font_525040_zlbib5wpvqjjor.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_525040_zlbib5wpvqjjor.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_525040_zlbib5wpvqjjor.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_525040_zlbib5wpvqjjor.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+	font-style: normal;
+}
+body{
+	background: #eceae8;
+}
+/* 头部 */
+     .tou{
+     	height: 118px;
+     	
+     	background: white;
+     	margin: auto;
+     	box-sizing: border-box;
+     }
+     .tou-nei{
+     	width: 100%;
+     	height: 100%;
+     	box-sizing: border-box;
+     	padding: 0 40px;
+     }
+     .tou-nei-left{
+     	height: 100%;
+		
+		float: left;
+		
+		background-image: url('../img/logo_1.png');
+		background-repeat: no-repeat;
+		background-position: center center;
+     }
+     .tou-nei-mid{
+     	float: left;
+     	height: 100%;
+
+     	display: flex;
+     	justify-content: space-between;
+     	align-items: center;
+     }
+     .tou-nei-right{
+     	float: right;
+     	height: 100%;
+
+     	display: flex;
+     	
+     	align-items: center;
+     }
+     .tou-nei-mid-ge{
+     	font-size: 16px;
+     	color: #8e8a85;
+     	height: 30px;
+     	line-height: 30px;
+     }
+     .tou-nei-mid-ge:hover{
+     	border-bottom: 1px solid black;
+     	color: black;
+     }
+     .tou-nei-right-1{
+     	width: 230px;
+     	height: 40px;
+     	float: left;
+     }
+     .tou-nei-right-1-ss{
+     	width: 230px;
+     	height: 40px;
+     	box-sizing: border-box;
+     	border: 1px solid #ebeae8;
+     	border-radius: 3px;
+     	outline: none;
+     	padding-left: 5px;
+     }
+     .tou-nei-right-2{
+     	width: 100px;
+     	height: 40px;
+     	float: left;
+     	box-sizing: border-box;
+     	padding-top: 6px;
+     }
+     .tou-nei-right-2:hover .tou-nei-right-2-txt{
+     	border-bottom: 1px solid black;
+     }
+     .tou-nei-right-2-i{
+     	float: left;
+     }
+     .tou-nei-right-2-txt{
+     	font-size: 15px;
+     	color: black;
+     	float: right;
+     	margin-top: 3px;
+     }
+     .tou-nei-right-3{
+     	float: left;
+     	margin-right: -15px;
+     }
+     .tou-nei-right-4{
+     	float: left;
+     	margin-right: -10px;
+     }
+     .tou-nei-right-2-i1{
+     	font-size: 30px;
+     }
+     .tou-nei-right-2-i2{
+     	font-size: 30px;
+     }
+     .tou-nei-right-2-i3{
+     	font-size: 54px;
+     }
+     .tou-nei-right-2-i1,.tou-nei-right-2-i2,.tou-nei-right-2-i3{
+     	color: #c9c6c0;
+     }
+     .tou-min{
+     	width: 100%;
+     	height: 48px;
+     	box-sizing: border-box;
+     	border-bottom: 1px solid #ebeae8;
+     	background: white;
+     }
+     .tou-min-left{
+     	float: left;
+     	height: 100%;
+     	width: 139px;
+     	margin-left: 15px;
+     	background-image: url('../img/logo_1.png');
+		background-repeat: no-repeat;
+		background-position: center center;
+     }
+     .tou-min-right{
+     	float: right;
+     	margin-right: 15px;
+     	height: 100%;
+     }
+     .tou-min-right-i{
+     	font-size: 25px;
+     	line-height: 48px;
+     	color: black;
+     }
+
+
+/* banner */
+	 .b{
+
+	 	height: 562px;
+		margin-bottom: 20px;
+	 	margin: auto;
+	 	
+	 }
+
+
+
+
+
+
+
+/* gift */
+	 .gift{
+	 	width: 1280px;
+	 	height: 
+	 }
+
+
+@media screen and (min-width: 1300px) {
+	/* tou */
+		 .tou{
+			width: 1280px;
+		 }
+		 .tou-nei-left{
+			width: 139px;
+			margin-right: 65px;
+		 }
+		 .tou-nei-mid{
+	     	width: 453px;
+	     }
+	     .tou-nei-right{
+	     	width: 471px;
+	     	justify-content: space-between;
+	     }
+	     .tou-min{
+	    	display: none;
+	     }
+
+	/* banner */
+	 .b{
+	 	width: 1280px;
+	 	background-image: url('../img/banner3-l.jpg');
+	 }
+
+	 
+}
+
+
+@media screen and (min-width: 677px) and (max-width: 1300px) {
+	/* tou */
+		 .tou{
+			width: 100%;
+			padding: 0 15px;
+		 }
+		 .tou-nei-left{
+			width: 25%;
+			margin-right: 5px;
+		 }
+		 .tou-nei-mid{
+	     	width: 35%;
+	     	margin-right: 5px;
+	     }
+	     .tou-nei-right{
+	     	width: 35%;
+	     	justify-content: space-around;
+	     }
+	     .tou-nei-right-1{
+	    	display: none;
+	     }
+	     .tou-min{
+	    	display: none;
+	     }
+
+	/* banner */
+	 .b{
+	 	width: 100%;
+	 	background-image: url('../img/banner3-l.jpg');
+	 }
+
+}
+
+@media screen and (max-width: 677px) {
+	/* tou */
+		 .tou{
+			width: 100%;
+			padding: 0 15px;
+		 }
+		 .tou-min{
+	    	display: block;
+	     }
+	     .tou{
+	    	display: none;
+	     }
+
+
+	/* banner */
+		 .b{
+		 	width: 100%;
+		 	background-image: url('../img/banner3-s.jpg');
+		 	background-repeat: no-repeat;
+		 }
+
+}
